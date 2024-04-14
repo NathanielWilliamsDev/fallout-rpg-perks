@@ -55,5 +55,24 @@ body{
     color: rgb(0, 0, 0);
 }
 
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.cardItem{
+    background:rgb(72, 141, 180);
+    padding: 10px;
+    text-align: center;
+}
+
+.cardItem img{
+    width: 150px;
+}
+
 
 
