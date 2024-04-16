@@ -59,8 +59,8 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 32px;
-    margin: 12px 15px 16px 15px;
+    gap: 18px;
+    margin: 10px 5px 10px 5px;
 }
 
 .cardItem{
@@ -72,10 +72,8 @@ body{
     border-radius: 10px;
     cursor: pointer;
     justify-content: space-between;
-}
-
-.cardItem img{
-    width: 135px;
+    width: 145px;
+    height: 163px;
 }
 
 .cardItem ul{
