@@ -80,6 +80,11 @@ body{
     display: none;
 }
 
+/* Fixes the issue where taller images push the perk's text below the card*/
+.button img{
+    max-height: 85%;
+}
+
 .selected{
     position: fixed;
     background:rgb(72, 141, 180);
@@ -134,6 +139,16 @@ body{
     text-shadow: 0 0 5px #edfa31;
 }
 
+/* Some images don't align correctly due to weird aspect ratio. This is a temporary fix. */
+.imgFix{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.selected .zac{
+    border-radius: 16px;
+    margin-top: 10px;
+}
 
 
 
