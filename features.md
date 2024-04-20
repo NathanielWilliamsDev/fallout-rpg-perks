@@ -7,3 +7,11 @@
 - Similarly, each perk in the My Perks list should have a "remove from My Perks" button
     - This can operate in the same way as adding and removing 'todo' tasks from 'daily-planner' project
 - This information should be stored in the local storage
+
+## Dark Mode
+- A switch that gives the web app a darker theme
+    - A button
+        - When pressed, activate an onclick()
+            - querySelector all the tags that have a strong amount of colour on the screen
+            - apply a class to these tags
+            - the class has darker colours
