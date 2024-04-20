@@ -16,4 +16,18 @@ function test(div){ // click
     }
 }
 
-
+let darkModeTriggered = false;
+function darkMode(){
+    darkModeTriggered = !darkModeTriggered; // Flips darkModeTriggered to the opposite when clicked
+    let root = document.querySelector(":root");
+    if(darkModeTriggered){
+        root.style.setProperty("--bg-color", "rgb(8, 41, 59)"); //Dark mode colour theme
+        root.style.setProperty("--header-color", "rgba(255, 255, 0, 0.692)")
+    }
+    else{
+        root.style.setProperty("--bg-color", "rgb(33, 117, 161)"); //Light mode (default) colour theme
+        root.style.setProperty("--header-color", "rgb(255, 255, 0)")
+    }
+}
+// let root = document.querySelector(":root");
+// root.style.setProperty("--bg-color", "red");

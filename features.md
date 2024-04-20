@@ -12,6 +12,5 @@
 - A switch that gives the web app a darker theme
     - A button
         - When pressed, activate an onclick()
-            - querySelector all the tags that have a strong amount of colour on the screen
-            - apply a class to these tags
-            - the class has darker colours
+            - update all colours in css to be variables
+            - change the all css colour varibales using javascript
