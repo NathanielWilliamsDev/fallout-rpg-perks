@@ -7,10 +7,12 @@
 :root{
     --bg-color: rgb(33, 117, 161);
     --header-color: rgb(255, 255, 0);
+    --dark-bg-color: rgb(8, 41, 59);
+    --dark-header-color: rgba(255, 255, 0, 0.692);
 }
 
 body{
-    background: var(--bg-color);
+    background: var(--dark-bg-color);
 }
 
 .header{
@@ -43,7 +45,7 @@ body{
     width: 50vw;
     border-radius: 10px;
     text-decoration: none;
-    background: var(--header-color);
+    background: var(--dark-header-color);
     box-shadow: 0 0 8px 1px rgba(8, 223, 194, 0.781);
 }
 
